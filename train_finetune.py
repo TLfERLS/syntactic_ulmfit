@@ -10,6 +10,9 @@ from nlgeval import NLGEval
 from calculate_ter import calculate_ter
 from seq2seq_syn import seq2seq
 
+def cal_scores():
+    return 0
+
 def finetune_model(num_epochs=20, k_fold=10,predict_test=True,calculate_scores=False):
     model = seq2seq(mode='finetune')
     saver = tf.train.Saver()
