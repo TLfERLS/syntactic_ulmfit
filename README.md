@@ -12,4 +12,4 @@ Applying ULMFiT fine-tuning on Paraphrasing models
 We have used the Version 0.7.25 version of the JAR file present on #5 link. NLGEval installation present some problems on Windows, you will be able to troubleshoot it through their Issues discussions.
 
 ## Further Enhancement
--[] Create a better modular structure
+- [ ] Create a better modular structure
